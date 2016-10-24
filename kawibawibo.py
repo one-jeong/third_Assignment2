@@ -32,26 +32,26 @@ def main():
 #컴퓨터가 가위를 냈을 경우
 		if(com_finger == 1):
 			if(my_finger == 1):
-				print("컴퓨터가 낸 것은 가위입니다. -----> Draw !")
+				print("컴퓨터가 낸 것은 가위입니당. -----> Draw !")
 			elif(my_finger == 2):
-				print("컴퓨터가 낸 것은 가위입니다. -----> You win !")
+				print("컴퓨터가 낸 것은 가위입니당. -----> You win !")
 			elif(my_finger == 3):
-				print("컴퓨터가 낸 것은 가위입니다. -----> You lose !")
+				print("컴퓨터가 낸 것은 가위입니당. -----> You lose !")
 		
 #컴퓨터가 바위를 냈을 경우
 		elif(com_finger == 2):
 			if(my_finger == 1):
-				print("컴퓨터가 낸 것은 바위입니다. -----> You lose !")
+				print("컴퓨터가 낸 것은 바위입니당. -----> You lose !")
 			elif(my_finger == 2):
-				print("컴퓨터가 낸 것은 바위입니다. -----> Draw !")
+				print("컴퓨터가 낸 것은 바위입니당. -----> Draw !")
 			elif(my_finger == 3):
-				print("컴퓨터가 낸 것은 바위입니다. -----> You win !")
+				print("컴퓨터가 낸 것은 바위입니당. -----> You win !")
 		
 #컴퓨터가 보를 냈을 경우
 		elif(com_finger == 3):
 			if(my_finger == 1):
-				print("컴퓨터가 낸 것은 보입니다. -----> You win !")
+				print("컴퓨터가 낸 것은 보입니당. -----> You win !")
 			elif(my_finger == 2):
-				print("컴퓨터가 낸 것은 보입니다. -----> You lose !")
+				print("컴퓨터가 낸 것은 보입니당. -----> You lose !")
 			elif(my_finger == 3):
-				print("컴퓨터가 낸 것은 보입니다. -----> Draw !")
+				print("컴퓨터가 낸 것은 보입니당. -----> Draw !")
