@@ -32,7 +32,7 @@ def main():
 #컴퓨터가 가위를 냈을 경우
 		if(com_finger == 1):
 			if(my_finger == 1):
-				print("컴퓨터가 낸 것은 가위입니다. -----> Draw ...")
+				print("컴퓨터가 낸 것은 가위입니다. -----> Draw !")
 			elif(my_finger == 2):
 				print("컴퓨터가 낸 것은 가위입니다. -----> You win !")
 			elif(my_finger == 3):
@@ -43,7 +43,7 @@ def main():
 			if(my_finger == 1):
 				print("컴퓨터가 낸 것은 바위입니다. -----> You lose !")
 			elif(my_finger == 2):
-				print("컴퓨터가 낸 것은 바위입니다. -----> Draw ...")
+				print("컴퓨터가 낸 것은 바위입니다. -----> Draw !")
 			elif(my_finger == 3):
 				print("컴퓨터가 낸 것은 바위입니다. -----> You win !")
 		
@@ -54,4 +54,4 @@ def main():
 			elif(my_finger == 2):
 				print("컴퓨터가 낸 것은 보입니다. -----> You lose !")
 			elif(my_finger == 3):
-				print("컴퓨터가 낸 것은 보입니다. -----> Draw ...")
+				print("컴퓨터가 낸 것은 보입니다. -----> Draw !")
